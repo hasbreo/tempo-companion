@@ -1,0 +1,49 @@
+{
+  "name": "Tempo Companion",
+  "slug": "tempo-companion",
+  "latest": "1.1.0",
+  "homepage": "https://hasbreo.com/tempo/chrome",
+  "privacy": "https://hasbreo.com/privacy/extensions/tempo-companion",
+  "description": "A compact Tempo Web player and larger Book Finder using your existing Tempo Web connections. Legacy player ZIPs are retained as historical downloads.",
+  "releases": [
+    {
+      "version": "1.1.0",
+      "label": "1.1.0 — latest",
+      "legacy": false,
+      "assets": [
+        {
+          "name": "Tempo-Companion-v1.1.0.zip",
+          "sha256": "3610da7ededc7514ad341c521fd64a81a04e9a9a1520f25cb3886b88849be82b",
+          "size": 36232,
+          "kind": "manual"
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "label": "0.2.0 — legacy player only",
+      "legacy": true,
+      "assets": [
+        {
+          "name": "Tempo-Chrome-v0.2.0.zip",
+          "sha256": "63034b2e0227106e3429a742a82d7d0a2f80093ae00375d5d098923ccb228453",
+          "size": 24180,
+          "kind": "manual"
+        }
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "label": "0.1.0 — original standalone player",
+      "legacy": true,
+      "assets": [
+        {
+          "name": "Tempo-Chrome-v0.1.0.zip",
+          "sha256": "c4c95033640fd3634ad246d977cfa22e1c96f362508ab3f0919c46916c577238",
+          "size": 42240,
+          "kind": "manual"
+        }
+      ]
+    }
+  ]
+}
